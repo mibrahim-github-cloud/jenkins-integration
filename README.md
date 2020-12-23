@@ -2,16 +2,17 @@
 
 
 CI/CD with Jenkins using Pipelines and Docker
+--------------------------------------------------
 
 1) Jenkins Installation steps cmd
---------------------------------------------------
+
 -> wget https://github.com/mibrahim-github-cloud/jenkins-integration/blob/main/scripts/install_jenkins.sh
 
 -> bash install_jenkins.sh
 
-
-2) creating Jenkins CI with docker client(using the existing Jenkins image)
 --------------------------------------------------------------------------------
+2) creating Jenkins CI with docker client(using the existing Jenkins image)
+
 ->docker ps -a
 
 ->git clone https://github.com/mibrahim-github-cloud/jenkins-docker
